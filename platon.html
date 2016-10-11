@@ -13,12 +13,40 @@
 	    src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
     </script>
 
+    
+    
+    
+    <!-- Compiled and minified jQuery -->
+    <script type="text/javascript"
+	    src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js">
+    </script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+	  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	  crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script 
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous">
+    </script>
 
   </head>
   
   <body>
     <script src="js/three.js"></script>
-    <script>//src="js/platon-app.js">
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12">
+
+
+
+
+          <script>//src="js/platon-app.js">
 
      var scene = new THREE.Scene();
      var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
@@ -93,6 +121,51 @@ var r = 2.0;
 
      
 </script>
+
+
+
+
+
+  <div class="table-responsive">
+
+  <table class="table">
+    <tr>
+      <th class="text-center">Paramètre</th>
+      <th class="text-center">Valeur</th>
+    </tr>
+
+    <tr>
+      <td class="text-center">Réseau</td>
+      <td class="text-center"><p id="title"></p></td>
+    </tr>
+    
+
+    <tr>
+      <td class="text-center">Faces</td>
+      <td class="text-center">8</td>
+    </tr>
+    
+    <tr>
+      <td class="text-center">Sommets</td>
+      <td class="text-center">24</td>
+    </tr>
+
+
+    <tr>
+      <td class="text-center">Autre</td>
+      <td class="text-center">2.0</td>
+    </tr>
+
+
+    </div>
+    </div>
+  </div>
+    
+  </table>
+</div>
+
+
+
 <p id="title"></p>
   </body>
 </html>
