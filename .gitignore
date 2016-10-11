@@ -1,4 +1,4 @@
 *~
 *.tmp
 *.o
-*.a
+*.abuild
