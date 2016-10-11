@@ -1,0 +1,10 @@
+- decrire l'algo complet ................ OK
+- faire le diagramme de sequence ........ OK
+- faire les prototypes corrects ......... OK
+- faire un serveur
+- faire un affichage depuis un json fixé
+- preparer le client à recevoir du json
+- faire envoyer des données mock depuis le serveur sur reception de parametres
+- faire le dessin des données recues
+- coder le serveur
+- fonctions client pour modifier les parametres

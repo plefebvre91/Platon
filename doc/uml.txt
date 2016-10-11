@@ -1,0 +1,29 @@
+@startuml
+
+activate Client
+Client -> Core : divide polyhedonr
+
+activate Core
+note  right : for each face
+Core -> Mesh : divide face
+
+activate Mesh
+Mesh -> Face : get barycentre
+
+activate Face
+Face --> Mesh : barycentre
+deactivate Face
+
+Mesh -> Mesh : normalize barycentre
+Mesh -> Mesh : remove current face
+Mesh -> Mesh : add new face
+
+Core -> Mesh : get new geometry
+Mesh --> Core : geometry (JSON format)
+deactivate Mesh
+
+Core --> Client : send new geometry
+deactivate Core
+deactivate Client
+
+@enduml
