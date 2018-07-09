@@ -1,0 +1,45 @@
+body
+{
+
+    color: #33ccee; /* bleu */
+    background-color: #030101;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    /* 386a7e bleu foncé #f93868 rose */
+}
+
+h1
+{
+    font-weight: bold;
+}
+
+h2
+{
+    color: #f93868;
+
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+
+
+.render-col
+{
+
+}
+
+.platon-render
+{
+    border: 1px solid #386a7e;
+    text-align:center;
+    background-color: black;
+    
+}
+
+
+.table
+{
+    font-size: 1.4em;
+    color: #386a7e;
+}
+
